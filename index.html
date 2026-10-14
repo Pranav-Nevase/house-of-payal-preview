@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House of Payal | Silver Jewellery</title>
+  <meta name="description" content="Explore the House of Payal catalogue concept for silver payals, chains, bracelets, and more. Contact us directly with product enquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Store announcement -->
+  <div class="announcement-bar">
+    <div class="container announcement-flex">
+      <span>Silver Jewellery</span>
+      <span class="divider">|</span>
+      <span>Explore the Catalogue</span>
+      <span class="divider">|</span>
+      <span>Direct Enquiries on WhatsApp</span>
+    </div>
+  </div>
+
+  <!-- Main navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+
+      <a href="#top" class="logo" aria-label="House of Payal home">
+        <span class="logo-main">HOUSE OF PAYAL</span>
+        <span class="logo-tag">Fine Silver Jewellery</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#collections">Collections</a>
+        <a href="#catalogue">Catalogue</a>
+        <a href="#about">About Us</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="btn-admin" id="openAdminBtn" type="button">Manage Catalogue</button>
+        <button class="btn-wa-nav" id="navWaBtn" type="button">WhatsApp Us</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+  <!-- Brand introduction and primary calls to action -->
+  <section class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-text">
+        <span class="sub-heading">Digital Product Catalogue</span>
+        <h1>Silver Jewellery for <em>Everyday & Special Occasions</em></h1>
+        <p>
+          Browse silver payals, chains, bracelets, and other jewellery. Message us on WhatsApp for product details, pricing, and availability.
+        </p>
+        <div class="hero-actions">
+          <a href="#catalogue" class="btn-dark">Browse Catalogue</a>
+          <button class="btn-outline" id="heroWaBtn">Enquire on WhatsApp</button>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust-box">
+            <strong>Silver</strong>
+            <span>Jewellery Collections</span>
+          </div>
+          <div class="trust-box">
+            <strong>New</strong>
+            <span>Designs to Explore</span>
+          </div>
+          <div class="trust-box">
+            <strong>Direct</strong>
+            <span>WhatsApp Support</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-img-frame">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80" alt="Silver jewellery catalogue preview">
+          <div class="floating-caption">
+            <span>Featured Collection</span>
+            <strong>Payals & Bracelets</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection shortcuts -->
+  <section id="collections" class="section-padding">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="sub-heading">Shop By Category</span>
+          <h2>Our Jewellery Collections</h2>
+        </div>
+        <p>Click on any collection to filter the products below.</p>
+      </div>
+
+      <div class="cat-grid">
+        <a class="cat-card" href="#catalogue" data-category="Silver Payals" aria-label="View Silver Payals">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=700&q=80" alt="Silver Payals">
+          <div class="cat-info">
+            <span>Bridal & Daily Wear</span>
+            <h3>Silver Payals</h3>
+            <span class="cat-link">View Designs &rarr;</span>
+          </div>
+        </a>
+
+        <a class="cat-card" href="#catalogue" data-category="Silver Chains" aria-label="View Silver Chains">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=700&q=80" alt="Silver Chains">
+          <div class="cat-info">
+            <span>Men & Women</span>
+            <h3>Silver Chains</h3>
+            <span class="cat-link">View Designs &rarr;</span>
+          </div>
+        </a>
+
+        <a class="cat-card" href="#catalogue" data-category="Silver Bracelets" aria-label="View Silver Bracelets">
+          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=700&q=80" alt="Silver Bracelets">
+          <div class="cat-info">
+            <span>Kadas, Cuffs & Links</span>
+            <h3>Silver Bracelets</h3>
+            <span class="cat-link">View Designs &rarr;</span>
+          </div>
+        </a>
+
+        <a class="cat-card" href="#catalogue" data-category="Other Jewellery" aria-label="View Other Jewellery">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=700&q=80" alt="Other Jewellery">
+          <div class="cat-info">
+            <span>Rings, Bichhiya & Earrings</span>
+            <h3>Other Jewellery</h3>
+            <span class="cat-link">View Designs &rarr;</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product catalogue and filters -->
+  <section id="catalogue" class="section-padding bg-white">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="sub-heading">Product Showcase</span>
+          <h2>Browse Our Catalogue</h2>
+        </div>
+        <p>This preview uses sample products and prices. Final listings can use your product details and photographs.</p>
+      </div>
+
+      <div class="filter-bar">
+        <div class="category-tabs" id="categoryTabs" role="group" aria-label="Filter products by collection">
+          <button class="tab-btn active" type="button" data-filter="all" aria-pressed="true">All Items</button>
+          <button class="tab-btn" type="button" data-filter="Silver Payals" aria-pressed="false">Silver Payals</button>
+          <button class="tab-btn" type="button" data-filter="Silver Chains" aria-pressed="false">Silver Chains</button>
+          <button class="tab-btn" type="button" data-filter="Silver Bracelets" aria-pressed="false">Silver Bracelets</button>
+          <button class="tab-btn" type="button" data-filter="Other Jewellery" aria-pressed="false">Other Jewellery</button>
+        </div>
+
+        <div class="search-controls">
+          <input type="search" id="searchInput" aria-label="Search products" placeholder="Search product or code...">
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="default">Sort: Featured</option>
+            <option value="low">Price: Low to High</option>
+            <option value="high">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="prod-grid" id="productGrid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- About the brand -->
+  <section id="about" class="section-padding">
+    <div class="container about-wrapper">
+      <div class="about-img-col">
+        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80" alt="Silver jewellery pieces">
+      </div>
+      <div class="about-content-col">
+        <span class="sub-heading">About Our Brand</span>
+        <h2>Why Choose House of Payal</h2>
+        <p>
+          <strong>House of Payal</strong> brings together silver jewellery for everyday wear and special occasions. Explore payals, chains, bracelets, and other designs in the catalogue.
+        </p>
+        <p>
+          For current pricing, availability, or more details about a design, send us an enquiry on WhatsApp.
+        </p>
+
+        <div class="features-row">
+          <div class="feature-item">
+            <h4>Explore the Catalogue</h4>
+            <p>Browse designs across our jewellery collections.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Ask Us Directly</h4>
+            <p>Contact us with questions about a product.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Personal Assistance</h4>
+            <p>We can help with product enquiries and availability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram preview -->
+  <section id="instagram" class="section-padding bg-white">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="sub-heading">Follow Us</span>
+          <h2>@houseofpayal</h2>
+        </div>
+        <a href="https://www.instagram.com/houseofpayal/" target="_blank" rel="noopener noreferrer" class="btn-outline-sm">Follow on Instagram &nearr;</a>
+      </div>
+
+      <div class="ig-grid">
+        <a href="https://www.instagram.com/houseofpayal/" target="_blank" rel="noopener noreferrer" class="ig-card">
+          <img src="https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&w=600&q=80" alt="Silver jewellery detail">
+        </a>
+        <a href="https://www.instagram.com/houseofpayal/" target="_blank" rel="noopener noreferrer" class="ig-card">
+          <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?auto=format&fit=crop&w=600&q=80" alt="Silver bracelet detail">
+        </a>
+        <a href="https://www.instagram.com/houseofpayal/" target="_blank" rel="noopener noreferrer" class="ig-card">
+          <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=600&q=80" alt="Silver earring detail">
+        </a>
+        <a href="https://www.instagram.com/houseofpayal/" target="_blank" rel="noopener noreferrer" class="ig-card">
+          <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=600&q=80" alt="Silver ring detail">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact details and enquiry form -->
+  <section id="contact" class="section-padding">
+    <div class="container contact-wrapper">
+      <div class="contact-left">
+        <span class="sub-heading">Contact Us</span>
+        <h2>Product Enquiries</h2>
+        <p>
+          Have a question about a design? Send us a message through the enquiry form and continue the conversation on WhatsApp.
+        </p>
+
+        <div class="info-list">
+          <div class="info-row">
+            <span>WhatsApp Support</span>
+            <strong>Click any WhatsApp button to start chatting</strong>
+          </div>
+          <div class="info-row">
+            <span>Collections</span>
+            <strong>Payals, chains, bracelets, and more</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h3>Quick WhatsApp Enquiry</h3>
+        <p>Enter your details below and it will open directly in your WhatsApp app.</p>
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="userName">Your Name</label>
+            <input type="text" id="userName" required placeholder="Enter your name">
+          </div>
+          <div class="input-group">
+            <label for="userCat">Collection</label>
+            <select id="userCat">
+              <option value="Silver Payals">Silver Payals</option>
+              <option value="Silver Chains">Silver Chains</option>
+              <option value="Silver Bracelets">Silver Bracelets</option>
+              <option value="Other Jewellery">Other Jewellery</option>
+              <option value="General Enquiry">General Enquiry</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="userMsg">Message / Product Code</label>
+            <textarea id="userMsg" rows="3" required placeholder="Mention the product name, code, or your requirement..."></textarea>
+          </div>
+          <button type="submit" class="btn-wa-block">Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer navigation and copyright -->
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <span class="logo-main text-white">HOUSE OF PAYAL</span>
+        <p class="footer-desc">A catalogue concept for House of Payal silver jewellery.</p>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul class="footer-list">
+          <li><a href="#catalogue" data-cat-link="Silver Payals">Silver Payals</a></li>
+          <li><a href="#catalogue" data-cat-link="Silver Chains">Silver Chains</a></li>
+          <li><a href="#catalogue" data-cat-link="Silver Bracelets">Silver Bracelets</a></li>
+          <li><a href="#catalogue" data-cat-link="Other Jewellery">Other Jewellery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-list">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#adminDrawer" id="footerAdminBtn">Manage Catalogue</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-copy">
+      <p>&copy; <span id="currentYear"></span> House of Payal. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Product detail modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="close-btn" id="closeModalBtn" type="button" aria-label="Close product details">&times;</button>
+      <div class="modal-body">
+        <div class="modal-img-box">
+          <img id="mImg" src="" alt="">
+          <label class="change-img-label">
+          <input type="file" id="modalImgInput" accept="image/jpeg,image/png,image/webp" hidden>
+            Change Photo
+          </label>
+        </div>
+        <div class="modal-info-box">
+          <span class="m-cat" id="mCat"></span>
+          <h3 id="mTitle"></h3>
+          <div class="m-price" id="mPrice"></div>
+          <p class="m-desc" id="mDesc"></p>
+
+          <div class="m-specs">
+            <div class="spec-line"><span>Product Code:</span> <strong id="mCode"></strong></div>
+            <div class="spec-line"><span>Material:</span> <strong>Silver</strong></div>
+            <div class="spec-line"><span>Weight:</span> <strong id="mWeight"></strong></div>
+            <div class="spec-line"><span>Finish:</span> <strong id="mFinish"></strong></div>
+          </div>
+
+          <div class="m-note">
+            <label for="mCustomNote">Any specific question? (Optional)</label>
+            <input type="text" id="mCustomNote" placeholder="e.g. Need 10 inch size or video preview">
+          </div>
+
+          <button class="btn-wa-block" id="mWaBtn">Enquire on WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Catalogue management drawer -->
+  <div class="admin-overlay" id="adminDrawer">
+    <div class="admin-panel" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+      <div class="admin-top">
+        <div>
+          <h3 id="adminTitle">Manage Products</h3>
+          <p>Changes are saved in this browser only.</p>
+        </div>
+        <button class="close-btn" id="closeAdminBtn" type="button" aria-label="Close catalogue manager">&times;</button>
+      </div>
+
+      <div class="admin-scroll">
+        <div class="price-toggle-box">
+          <label for="priceToggle">
+            <strong>Show Prices on Website</strong>
+            <span>Turn off to show "Price on Request"</span>
+          </label>
+          <input type="checkbox" id="priceToggle" aria-label="Show product prices" checked>
+        </div>
+
+        <form id="addProductForm" class="add-form">
+          <h4>Add New Product</h4>
+          <div class="grid-2">
+            <input type="text" id="pName" aria-label="Product name" required placeholder="Product Name">
+            <input type="text" id="pCode" aria-label="Product code" required placeholder="Code (e.g. HOP-115)">
+          </div>
+          <div class="grid-2">
+            <select id="pCat" aria-label="Product collection">
+              <option value="Silver Payals">Silver Payals</option>
+              <option value="Silver Chains">Silver Chains</option>
+              <option value="Silver Bracelets">Silver Bracelets</option>
+              <option value="Other Jewellery">Other Jewellery</option>
+            </select>
+            <input type="number" id="pPrice" aria-label="Price in rupees" min="0" step="1" required placeholder="Price in ₹">
+          </div>
+          <div class="grid-2">
+            <input type="text" id="pWeight" aria-label="Product weight" required placeholder="Weight (e.g. 35g Pair)">
+            <input type="text" id="pFinish" aria-label="Product finish" required placeholder="Finish (e.g. Oxidised)">
+          </div>
+          <textarea id="pDesc" aria-label="Product description" rows="2" placeholder="Short product details..."></textarea>
+          <div class="upload-field">
+            <label for="pFile">Select Product Image:</label>
+            <input type="file" id="pFile" accept="image/*">
+          </div>
+          <button type="submit" class="btn-dark full-btn">Save Product</button>
+        </form>
+
+        <div class="admin-list-top">
+          <h4>Current Products</h4>
+          <button type="button" id="resetBtn" class="reset-link">Reset Default Items</button>
+        </div>
+        <div id="adminList" class="admin-items"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Persistent WhatsApp enquiry button -->
+  <button class="float-wa" id="floatWaBtn" type="button" aria-label="Send a WhatsApp enquiry">
+    <span>WhatsApp Enquiry</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
